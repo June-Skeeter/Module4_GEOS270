@@ -9,7 +9,7 @@ heading_anchors: true
 markdown: kramdown
 
 aux_links:
-  "Course Syllabus":
+  "Course Schedule":
     - "https://june-skeeter.github.io/GEOS270W2/docs/Overview.html"
     
   "View on Github":
