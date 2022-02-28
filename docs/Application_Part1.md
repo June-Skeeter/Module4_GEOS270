@@ -23,6 +23,8 @@ Just off of the West Coast of Vancouver Island, is the [Cascadia Subduction Zone
 
 <img src="content/images/CSZ.png" alt="hi" class="inline"/>
 
+## Traditional Knowlege and Records of Past Tsunamis
+
 Despite the scientific communities’ assumptions that the CSZ was not a threat, knowledge of the destructive potential of the CSZ was preserved in the oral histories of coastal indigenous peoples from British Columbia to Northern California.  There are numerous histories describing a massive earthquake and tsunami that occurred sometime around 1700.  These histories were transcribed between 1860 and 1964.  Read the highlighted sections of Ludwin et al. (2005), which can be found [here](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/Readings/LudwinEtAl.pdf)
 
 It wasn’t until the 1990’s that scientific research began to shown that the CSZ was capable of producing megathrust earthquakes and tsunamis.  Tree ring studies and historical accounts of a Tsunami in Japan pinpoint the timing of the last major CSZ earthquake at 21:00 Pacific time on January 26, 1700.  In fact, there have been at least seven megathrust earthquakes exceeding 8.0 magnitude in the last 3500 years.  The recurrence interval for massive earthquakes along this fault line are estimated to be between 243 and 500 years.  In 2010, geologists predicted a 37% chance of a magnitude 8.2+ event within 50 years, and a 10 to 15% chance that the entire Cascadia subduction zone will rupture with a magnitude 9+ event within the same time frame.  
