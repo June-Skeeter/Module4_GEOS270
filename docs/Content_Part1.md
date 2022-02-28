@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Spatial Analysis
-parent: Content
-has_children: True
+parent: Lecture Content
+# has_children: True
 nav_order: 1
 ---
 
@@ -12,6 +12,7 @@ nav_order: 1
 
 Spatial analysis methods are central to the effective application of GIS.  This lecture is a bit of an "info dump".  We'll cover lots of different methods for analyzing spatial data.  We'll build on these tools in the next two modules and talk about how we can apply them in sequence.
 
+<!-- 
 <details open markdown="block">
   <summary>
     Table of contents
@@ -19,12 +20,29 @@ Spatial analysis methods are central to the effective application of GIS.  This 
   {: .text-delta }
 1. TOC
 {:toc}
-</details>
+</details> -->
 
 
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/VectorAnalysis.html" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="content/VectorAnalysis.html" target="_blank">View Slides in New Tab</a>
+
+
+<!-- 
 # Vector Methods
 
-There are a large number of spatial operations we can do using Vector data.  Some of them are very similar can be used to complete the same task with slight changes to a workflow.  The distinctions between these tools can be subtle, but they are important.  Typically in GIS there are multiple ways to get the same answers, some "routes" are just more direct.
+There are a large number of spatial operations we can do using Vector data.  Some of them are very similar can be used to complete the same task with slight changes to a workflow.  The distinctions between these tools can be subtle, but they are important.  Typically in GIS there are multiple ways to get the same answers, some "routes" are just more direct. -->
 
 ## Proximity Analysis
 
@@ -41,7 +59,7 @@ Sometimes, we we're interested in looking at spatial relationships within or bet
 
 ## Geometric Manipulations
 
-These methods create new layers with alter "geometries".  Geometry is a term we use to refer to points, lines, and/or polygons in a vector layer.  
+These methods create new layers with altered "geometries".  Geometry is a term we use to refer to points, lines, and/or polygons in a vector layer.  
 
 ### Feature Aggregation
 
