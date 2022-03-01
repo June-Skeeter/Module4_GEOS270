@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acquire Data
-parent: Application
+parent: Lab Application
 nav_order: 2
 ---
 

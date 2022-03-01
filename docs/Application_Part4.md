@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Last Minute Changes
-parent: Application
+parent: Lab Application
 nav_order: 4
 ---
 
