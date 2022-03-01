@@ -5,22 +5,40 @@ nav_order: 4
 ---
 
 # Assessment
-{: .no_toc }
 
-You can use the course Canvas page to complete the quiz, written submission, and files uploads.  I suggest you download write down your answers as you progress through the Content and Application sections then upload your answers to canvas once you have finished the module.
+You can use the submit your answers to the Assessment via the Module 3 Quiz on Canvas.  Questions are listed here with hyperlinks to the relevant section of the module if you need help finding answers.
 
-1. TOC
-{:toc}
+
+## Written Answers & File Uploads
+
+Written answers should be brief but they should adequately answer the question.  Bullet point format is sufficient unless otherwise specified.  All written answers & charts will be evaluated following this general rubrics below.
+
+* Scores & categories are general guides, you TA may assign scores between these levels
+* Your TA will provide brief comments where applicable, if you need more feedback you can follow up with your TA.
+
+**Written Answer Rubric**
+
+|Score|      Category      |                             Details                              |
+|-----|--------------------|------------------------------------------------------------------|
+|0%   |Missing             |N/A                                                               |
+|40%  |Insufficient        |Minimal effort, missing major key points, or serious logical flaws|
+|60%  |Below Expectations  |Missing a few key points or minor logical flaws                   |
+|80%  |Met Expectations    |Hits key points and mostly well constructed                       |
+|100% |Exceeds Expectations|Clearly thought out, concise, and astute                          |
+
+**Charts Rubric**
+
+|Score|      Category      |                             Details                               |
+|-----|--------------------|-------------------------------------------------------------------|
+|0%   |Missing             |N/A                                                                |
+|40%  |Insufficient        |Serious errors in analysis, missing data, or major stylistic issues|
+|60%  |Below Expectations  |Minor errors in analysis or multiple stylistic issues              |
+|80%  |Met Expectations    |Error free analysis, minor stylistic issue                         |
+|100% |Exceeds Expectations|Error free analysis and clean, aesthetically pleasing map/chart    |
 
 ---
 
-# Module Quiz (30 pts)
-
-All quiz answers are multiple choice, numeric input, fill in the blank, etc. type questions.  They can be submitted via the Module 1 Quiz that can be found on the Canvas page.  You will have unlimited attempts to take the quiz.
-
-
-## Content
-
+# Lecture Content Questions 
 
 [**QC1**](Content.md#qc1)
 
@@ -63,14 +81,24 @@ Spatial [Interpolation/Overlay/Sampling] is a process used to "read between the 
 
 Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called ______ to help newcomers to British Columbia and Manitoba find information and connect with free services.
 
+
 ---
 
-## Application 
+# Lab Application Questions 
 
-[**QA1**](Application_Part1.md#qa1)
+[X](Application_Part1.md#Traditional-knowlege-and-records-of-past-tsunamis) What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
 
-The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
+<!-- The sciences have tended to have a bias against and non-white/colonial/male knowledge/sources -->
 
+
+
+[X](Application_Part1.md#unique-geography) The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
+
+<!-- 2.4 -->
+
+[X](Application_Part1.md#simulated-save-heights) Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story, the account in Fine et al (2008), and the simulation of wave heights about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
+
+<!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
 
 [**QA2**](Application_Part2.md#qa2)
 

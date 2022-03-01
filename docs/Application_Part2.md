@@ -18,13 +18,28 @@ nav_order: 2
 </details>
 
 
-# Project Folder
+# Download the Project
 
-I've gotten the ball rolling for you and setup a project.  Download the [Module5 folder here](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/Module5.zip).  This project contains two layers: a DEM for the Port Alberni area and a vector layer representing the coastline.  It also contains a model that you can use identify areas at risk for Tsunami inundation.  Your task will be to incorporate data from the City of Port Alberni, the Province of British Columbia, and Statistics Canada.
+[Download the Project!](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/PA_Risk_Assessment.zip){: .btn .btn-blue }
+
+I've gotten the ball rolling for you and setup a project.  This project folder contains:
+
+* **PA_Risk_Assessment.gdb**
+
+  * **PA_Risk_Assessment_Inputs**: A feature dataset where you will put all the vector inputs for the project.  It already contains one layer.
+    * **Waterbodies**: A polygon representing the coastline.  
+
+  * **PA_DEM_ProjectRaster**: A Digital Elevation Model (DEM) is a type of raster data used to represent elevation.  This one covers the the Port Alberni area.  Raster data *cannot* be stored in feature datasets, they are only for vector data.
+
+
+* **PA_Risk_Assessment.tbx**:  Toolboxes can contain custom models and scripts.   
+  * **InundationZone**: A model that you can use identify areas at risk for Tsunami inundation.  You will use this model to identify possible areas in the city that will flood.
+
+  * You will also create a new model to incorporate data from the City of Port Alberni, the Province of British Columbia, and Statistics Canada.  This model will overlay datasets to identify which areas are at risk of flooding.
 
 # Port Alberni Data
 
-Download the [PA_Data.zip](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/PA_Data.zip) and extract it to your Module5 folder.  This folder contains Properties.shp (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  This folder also contains two text files:  ZoningCodes is metadata for Properties.shp.  We don't need to worry about it for now.  Shelters.csv is a text file with the Lat/Lon coordinates of the tsunami shelters.  See the video below for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
+Download the [PA_Data.zip](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/PA_Data.zip) and extract it to your PA_Risk_Assessment folder.  This folder contains Properties.shp (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  This folder also contains two text files:  ZoningCodes is metadata for Properties.shp.  We don't need to worry about it for now.  Shelters.csv is a text file with the Lat/Lon coordinates of the tsunami shelters.  See the video below for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KTZ5ix_O8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
