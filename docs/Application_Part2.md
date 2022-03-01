@@ -39,40 +39,45 @@ I've gotten the ball rolling for you and setup a project.  This project folder c
 
 # Port Alberni Data
 
-Download the [PA_Data.zip](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/PA_Data.zip) and extract it to your PA_Risk_Assessment folder.  This folder contains Properties.shp (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  This folder also contains two text files:  ZoningCodes is metadata for Properties.shp.  We don't need to worry about it for now.  Shelters.csv is a text file with the Lat/Lon coordinates of the tsunami shelters.  See the video below for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
+Download the [PA_Data.zip](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/PA_Data.zip) and extract it to your PA_Risk_Assessment folder.  This folder contains:
+* **Properties.shp** (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  
+* Two text files:
+ * **ZoningCodes** is metadata for Properties.shp.  We don't need to worry about it for now.  
+ * **Shelters.csv** is a text file with the Lat/Lon coordinates of the tsunami shelters.  **See the video below** for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
+
+**Note** In the videos, the project is refereed to as Module5, but I've changed it to PA_Risk_Assessment.  Everything else is still the same.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KTZ5ix_O8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA2
 
-Why do we use a feature dataset to hold all our input layers?
-
-A) No reason
-B) So everything is neatly grouped in one folder
-C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
-D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
-
-<!-- C -->
 
 
 # Downloading Census Data
 
-We want to to download Dissemination Area level population data for the Port Alberni using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  We are going to download three population variables:
+We want to to download Dissemination Area level population data for the Port Alberni using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  The video below can help guide you through the download process.  We are going to download two population variables:
 
-* Total Population
-* Total Households
-
-The video below can help guide you through the download process. 
+* **Total Population**
+* **Total Households**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe6xiF22kRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have downloaded the data, extract it to your Module5 folder.  Import the Simply Analyticis shapefile into the PA_Risk_Assessment_Inputs feature dataset.  Name it Population_Data and **make sure** to set the field names following the same procedure as in Module4, reference the variables_names.txt file for the list of variable names.
+## Import the Census Data
+
+
+**1**{: .label .label-red } Once you have downloaded the data, extract it to your PA_Risk_Assessment folder.  
+
+**2**{: .label .label-red } Import the Simply Analytics shapefile into the PA_Risk_Assessment_Inputs feature dataset.  Name it **Population_Data** 
+
+**3**{: .label .label-red } Make sure to set the field names following the same procedure as in Module3, reference the **variables_names.txt**.  
+* **Note**: It appears there is a bug in ArcPro, that sometimes causes issues renaming variables while importing Feature Classes.  Open the attribute table of Population_Data once you've imported it and check that the Population and Household names transferred.  If you see VALUE0 and VALUE1 instead, you can manually set names by right clicking on the column you want to rename >> click Field >> Edit the Aliases in the dialog that opens, then save the edits.  You can ask your TA for help if you get stuck here.
+
 
 # Downloading Roads Data from DataBC
 
-To conduct the analysis, we’ll also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  Follow the video instructions to download the roads layers.
+To conduct the analysis, we also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  DataBC is a useful website for downloading a number of dataset from across the province.  Follow the video instructions to download the roads layers.  Make sure you download the layer **Digital Road Atlas (DRA) - Demographic Partially-Attributed Roads**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**1**{: .label .label-green } You will be emailed a link to download the data.  Extract the file to your PA_RiskAssesment project folder then import the data into your PA_RiskAssesment_Inputs feature dataset.  Name it **PA_Roads**.
 
-You will be emailed a link to download the data.  Extract the file to your Modlue5 project then import the data into your PA_RiskAssesment_Inputs feature dataset.  Name it PA_Roads.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hL7ga4EnMB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 

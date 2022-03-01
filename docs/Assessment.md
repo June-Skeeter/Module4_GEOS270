@@ -100,135 +100,77 @@ Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds
 
 <!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
 
-[**QA2**](Application_Part2.md#qa2)
+[X](Application_Part2.md#port-alberni-data) Why do we use a feature dataset to hold all our input layers?
 
-Why do we use a feature dataset to hold all our input layers?
+A) No reason
+B) So everything is neatly grouped in one folder
+C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
+D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
 
-* No reason
+<!-- C -->
 
-* So everything is neatly grouped in one folder
-
-* To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
-
-* To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
-
-
-[**QA3**](Application_Part3.md#qa3)
-
-
-Why are we using model builder for this analysis?  Select all that apply
+[X](Application_Part3.md#automating-with-model-builder) Why are we using model builder for this analysis?  Select all that apply
 
 * Your analysis is easily repeatable when using model builder
-
-* You can share your easily update your analysis
-
-* You can share your visualize your workflow
-
-* You can share your workflow
+* You can easily update your analysis
+* You can visualize your workflow
+* You can share your workflow with others
 
 
-[**QA4**](Application_Part3.md#qa4)
+[X](Application_Part3.md#clip-the-roads-layer)
 
 How many **km** of roads are at risk?  Rounded to the nearest tenth km is fine.  *Hint* Open the attribute, of PA_Roads_Flood, click right Click Shape_Length >> Statistics to find the sum.
 
+<!-- 31.16 -->
 
-[**QA5**](Application_Part3.md#qa5)
+[X](Application_Part3.md#select-properties-by-location) How many residential properties (sum of Residential and Multi-Family Residential) are are at risk?  Reference the bar chart you created.
 
-How many residential properties (single and multi-family combined) are are at risk?  
-
-
-[**QA6**](Application_Part3.md#qa6)
-
-What is our estimate of Pop_at_Risk?
+<!-- 689 -->
 
 
-[**QA7**](Application_Part4.md#qa7)
+[X](Application_Part4.md)
 
-How many **km** of roadways are at risk of flooding? Rounded to the nearest tenth km is fine.  
+How many **km** of roadways are at risk of flooding? Rounded to the nearest tenth km is fine.  **Note** this answer will be higher than your answer to Question X because we increased the threshold.
 
+<!-- 44.3 -->
 
-[**QA8**](Application_Part4.md#qa8)
+[X](Application_Part4.md)
 
 How many properties (of any kind) are at risk of flooding?
 
+<!-- 1413 -->
 
+[X](Application_Part4.md)
 
-[**QA9**](Application_Part4.md#qa9)
+How many people are potentially at risk of displacement?  **Round up to the nearest whole number**
 
-How many people are potentially at risk of displacement?
+<!-- 2038 -->
 
-
-[**QA10**](Application_Part4.md#qa10)
+[X](Application_Part4.md)
 
 How many shelters are in suitable locations?
 
-
----
-
-# Module Assignment (70pts)
-
-All written answers should be numbered and record in one document, saved as a .pdf, and uploaded to canvas.  The file submissions should also be saved as .pdf and uploaded as a separate document.  **Written answers can be as brief as you want as long as they answer the question.**
+<!-- 2 -->
 
 
-## Content
+[X](Application_Part4.md)
 
-No written questions for lecture content this module.
+How many shelters are in suitable locations?
 
----
+<!-- 2 -->
 
-## Application (40pts)
+[X](Application_Part5.md)
 
-[**WA1**](Application_Part1.md#wa1) - 10pts
+Upload your **PA_RiskAssesment_Model.pdf**
 
-What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
+[X](Application_Part5.md)
 
+Upload your **Properties_at_Risk_Chart.pdf**
 
-[**WA2**](Application_Part1.md#wa2) - 5pts
+[X](Application_Part5.md)
 
-Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
+Upload your **PA_RiskAssessment_Final_Map.pdf**
 
+[X](Application_Part5.md)
 
-[**WA3**](Application_Part5.md#wa3) - 20pts
-
-
-Write a brief (1 page) report for the City of Port Alberin.  The report needs explicity answer the four questions questions:
-
-**1**{: .label .label-red } Which roads are at risk of flooding or damage?
-
-**2**{: .label .label-red } Which properties in the city are at risk?
-
-**3**{: .label .label-red } How many people in Port Alberni are potentially living in areas at risk?
-
-**4**{: .label .label-red } Are the Tsunami Shelters sufficient?
-
-
-You should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment and explain your findings referring to your charts, map, statistics where necessary.
-
----
-
-## File Submissions (35 pts)
-
-
-[**FA1**](Application_Part5.md#fa1) - 5pts
-
-Upload your model to canvas.
-
-[**FA2**](Application_Part5.md#fa2) - 10pts
-
-Upload your Charts to canvas.
-
-[**FA3**](Application_Part5.md#fa3) - 20pts
-
-Upload your Map to canvas.
-
-# Rubric 
-
-All written answers submissions will be scored using this generic rubric.  Your TA will provide brief comments where applicable.  For more feedback you can follow up with your TA.
-
-|Score|Comments            |
-|-----|--------------------|
-| 0%  |Missing             |
-| 25% |Insufficient        |
-| 50% |Below Expectations  |
-| 75% |Met Expectations    |
-| 100%|Exceeds Expectations|
+Upload your **PA_RiskAssessment_Summary.pdf**

@@ -23,7 +23,7 @@ Just off of the West Coast of Vancouver Island, is the [Cascadia Subduction Zone
 
 <img src="content/images/CSZ.png" alt="hi" class="inline"/>
 
-## Traditional Knowlege and Records of Past Tsunamis
+## Traditional Knowledge and Records of Past Tsunamis
 
 Despite the scientific communities’ assumptions that the CSZ was not a threat, knowledge of the destructive potential of the CSZ was preserved in the oral histories of coastal indigenous peoples from British Columbia to Northern California.  There are numerous histories describing a massive earthquake and tsunami that occurred sometime around 1700.  These histories were transcribed between 1860 and 1964.  Read the highlighted sections of Ludwin et al. (2005), which can be found [here](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/Readings/LudwinEtAl.pdf)
 
@@ -59,3 +59,5 @@ The city wants to know:
 ## References
 
 Fine, I. V., Cherniawsky, J. Y., Rabinovich, A. B., & Stephenson, F. (2008). Numerical Modeling and Observations of Tsunami Waves in Alberni Inlet and Barkley Sound, British Columbia. Pure and Applied Geophysics, 165(11–12), 2019–2044. https://doi.org/10.1007/s00024-008-0414-9
+
+Ludwin, R. S., Dennis, C., McMillan, L., & Clague, J. (2005). Dating the 1700 Cascadia Earthquake: Great Coastal Earthquakes in. Seismological Research Letters, 76(2), 141.
