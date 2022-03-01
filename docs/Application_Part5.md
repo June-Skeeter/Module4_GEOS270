@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Visualizatons & Reports
-parent: Application
+parent: Lab Application
 nav_order: 5
 ---
 
