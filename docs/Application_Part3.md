@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geospatial Analysis
-parent: Application
+parent: Lab Application
 nav_order: 3
 ---
 

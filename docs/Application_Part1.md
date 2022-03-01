@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Framing the Problem
-parent: Application
+parent: Lab Application
 nav_order: 1
 ---
 
