@@ -8,7 +8,8 @@ nav_order: 1
 
 This module will cover spatial analysis and inference methods methods.  We can overlay spatial layers to create new information and make conclusions about our data.
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hnTuP5HrLlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+<img src="docs/content/images/RiskModelling.png">
 
 # Deliverables
 
