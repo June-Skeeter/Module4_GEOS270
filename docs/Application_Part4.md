@@ -5,18 +5,6 @@ parent: Lab Application
 nav_order: 4
 ---
 
-# Last Minute Changes
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # New Wave Estimates
 
 Just as you’re getting ready to make your maps, and write your report, a colleague  tells you about a new modeling study that was just published suggests that peak wave height could be up to 15 meters and the wave could reach 1250m inland rather than 1000m.  Update your raster reclassification values and the waterbodies buffer distance to reflect this new information and rerun your model to update your analysis!  You can use the video below as a guide.
