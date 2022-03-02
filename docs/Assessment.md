@@ -40,67 +40,67 @@ Written answers should be brief but they should adequately answer the question. 
 
 # Lecture Content Questions 
 
-[**QC1**](Content.md#qc1)
+[**1**](Content_Part1.md)
 
-The [Clip/Intersect/Union] tool can be used to identify the areas of two or more [vector/raster] layers that overlap *and* combine all attributes to create a new layer.
+The [Clip/Intersect/Union/Erase] tool can be used to identify the areas of two or more [vector/raster] layers that overlap *and* combine all attributes to create a new layer.
 
-[**QC2**](Content.md#qc2)
+[**2**](Content_Part1.md)
 
-The [Clip/Intersect/Union] tool can be used to combine all attributes of two or more [vector/raster] layers and create a new layer.  This tool will include non-overlapping area in the output.
+The [Clip/Intersect/Union/Erase] tool can be used to combine all attributes of two or more [vector/raster] layers and create a new layer.  This tool will include non-overlapping area in the output.
 
 
-[**QC3**](Content.md#qc3)
+[**3**](Content_Part1.md)
 
-The [Clip/Intersect/Union/Erase] tool can be used like a cookie cutter.  It cuts away the portions of an input that do not overlap the clip layer but does not merge attributes.
+The ______ tool can be used like a cookie cutter.  It cuts away the portions of an input that do not overlap the clip layer but does not merge attributes.
 
-[**QC4**](Content.md#qc4)
+[**4**](Content_Part2.md)
 
 The [Weighted Overlay/Slope/Union/Zonal Statistics] tool can be used to conduct suitability or risk analysis.  Multiple [raster/vector] layers are overlaid to generate a suitability or risk classification map.
 
-[**QC5**](Content.md#qc5)
+[**5**](Content_Part2.md)
 
 The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be used to conduct suitability or risk analysis, but it is a more general tool that allows you to define algebraic expressions using raster layers.
 
-[**QC6**](Content.md#qc6)
+[**6**](Content_Part2.md)
 
-The [Slope/Aspect/Reclassify] tool can also be used to calculate the compass direction that a hillside is facing.
+The ______ tool can also be used to calculate the compass direction that a hillside is facing.
 
-[**QC7**](Content.md#qc7)
+[**7**](Content_Part3.md)
 
 Stratified random sampling is a(n) [biased/unbiased] sampling method that seeks to draw a more representative sample than pure random sampling.
 
-[**QC8**](Content.md#qc8)
+[**8**](Content_Part3.md)
 
-Spatial [autocorrelation/interpolation/overlay] effects the results we get when sampling spatial data. It is important to think through the impacts when we are sampling spatial data.
+Spatial [Autocorrelation/Interpolation/Overlay/Aliasing] effects the results we get when sampling spatial data. It is important to think through the impacts when we are sampling spatial data.
 
-[**QC9**](Content.md#qc9)
+[**9**](Content_Part3.md)
 
-Spatial [Interpolation/Overlay/Sampling] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
+Spatial [Interpolation/Overlay/Sampling/Analysis] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
 
-[**C10**](QContent.md#qc0)
+[**10**](Content_Part4.md)
 
-Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called ______ to help newcomers to British Columbia and Manitoba find information and connect with free services.
+Our guest speaker Alysha is the Impact Producer for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called Arrival Advisor to help newcomers to British Columbia and Manitoba find information and connect with free services.  To make sure you were paying attention.  What is the name of Alysha's dog? ______
 
 
 ---
 
 # Lab Application Questions 
 
-[X](Application_Part1.md#Traditional-knowlege-and-records-of-past-tsunamis) What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
+[**11**](Application_Part1.md#Traditional-knowlege-and-records-of-past-tsunamis) What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
 
 <!-- The sciences have tended to have a bias against and non-white/colonial/male knowledge/sources -->
 
 
 
-[X](Application_Part1.md#unique-geography) The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
+[**12**](Application_Part1.md#unique-geography) The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
 
 <!-- 2.4 -->
 
-[X](Application_Part1.md#simulated-save-heights) Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story, the account in Fine et al (2008), and the simulation of wave heights about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
+[**13**](Application_Part1.md#simulated-save-heights) Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story, the account in Fine et al (2008), and the simulation of wave heights about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
 
 <!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
 
-[X](Application_Part2.md#port-alberni-data) Why do we use a feature dataset to hold all our input layers?
+[**14**](Application_Part2.md#port-alberni-data) Why do we use a feature dataset to hold all our input layers?
 
 A) No reason
 B) So everything is neatly grouped in one folder
@@ -109,7 +109,7 @@ D) To ensure all our vector and raster data is in the same projection, the featu
 
 <!-- C -->
 
-[X](Application_Part3.md#automating-with-model-builder) Why are we using model builder for this analysis?  Select all that apply
+[**15**](Application_Part3.md#automating-with-model-builder) Why are we using model builder for this analysis?  Select all that apply
 
 * Your analysis is easily repeatable when using model builder
 * You can easily update your analysis
@@ -117,60 +117,54 @@ D) To ensure all our vector and raster data is in the same projection, the featu
 * You can share your workflow with others
 
 
-[X](Application_Part3.md#clip-the-roads-layer)
+[**16**](Application_Part3.md#clip-the-roads-layer)
 
 How many **km** of roads are at risk?  Rounded to the nearest tenth km is fine.  *Hint* Open the attribute, of PA_Roads_Flood, click right Click Shape_Length >> Statistics to find the sum.
 
 <!-- 31.16 -->
 
-[X](Application_Part3.md#select-properties-by-location) How many residential properties (sum of Residential and Multi-Family Residential) are are at risk?  Reference the bar chart you created.
+[**17**](Application_Part3.md#select-properties-by-location) How many residential properties (sum of Residential and Multi-Family Residential) are are at risk?  Reference the bar chart you created.
 
 <!-- 689 -->
 
 
-[X](Application_Part4.md)
+[**18**](Application_Part4.md)
 
-How many **km** of roadways are at risk of flooding? Rounded to the nearest tenth km is fine.  **Note** this answer will be higher than your answer to Question X because we increased the threshold.
+How many **km** of roadways are at risk of flooding? Rounded to the nearest tenth km is fine.  **Note** this answer will be higher than your answer to Question 16 because we increased the threshold.
 
 <!-- 44.3 -->
 
-[X](Application_Part4.md)
+[**19**](Application_Part4.md)
 
 How many properties (of any kind) are at risk of flooding?
 
 <!-- 1413 -->
 
-[X](Application_Part4.md)
+[**20**](Application_Part4.md)
 
 How many people are potentially at risk of displacement?  **Round up to the nearest whole number**
 
 <!-- 2038 -->
 
-[X](Application_Part4.md)
+[**21**](Application_Part4.md)
 
 How many shelters are in suitable locations?
 
 <!-- 2 -->
 
 
-[X](Application_Part4.md)
-
-How many shelters are in suitable locations?
-
-<!-- 2 -->
-
-[X](Application_Part5.md)
+[**22**](Application_Part5.md)
 
 Upload your **PA_RiskAssesment_Model.pdf**
 
-[X](Application_Part5.md)
+[**23**](Application_Part5.md)
 
 Upload your **Properties_at_Risk_Chart.pdf**
 
-[X](Application_Part5.md)
+[**24**](Application_Part5.md)
 
 Upload your **PA_RiskAssessment_Final_Map.pdf**
 
-[X](Application_Part5.md)
+[**25**](Application_Part5.md)
 
 Upload your **PA_RiskAssessment_Summary.pdf**

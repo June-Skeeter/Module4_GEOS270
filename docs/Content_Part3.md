@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Guest Speaker
-parent: Content
+parent: Lecture Content
 has_children: True
-nav_order: 3
+nav_order: 4
 ---
 
-# Guest Speaker: Wednesday November 3rd
+# Guest Speaker: Thursday March 10th
 
-
+<!-- 
 ## Alysha Baratta: Peace Geeks
 
 
@@ -26,3 +26,4 @@ nav_order: 3
  </iframe>
 </div>
 <a href="content/GIS Arrival Advisor.pdf" target="_blank">View slides in new tab</a>
+ -->
