@@ -18,12 +18,6 @@ nav_order: 3
 
 How would a catastrophic tsunami potentially impact Port Alberni?
 
-## Download the Project
-
-[Download the Project!](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/Module5.zip){: .btn .btn-blue }
-
-I've set up a project for you.  Extract the Module5 project folder to your working directory (eg. C:/Temp).  Open it, and double click the Module5.aprx file to open your project.
- 
 ## Workflow
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spatial Sampling and Inference
-parent: Content
+parent: Lecture Content
 has_children: True
 nav_order: 2
 ---
@@ -21,7 +21,9 @@ nav_order: 2
 
 Spatial sampling is the way we collect data to to bring it into a GIS in the first place.  It is essential to take representative samples, so that we can adequately represent the phenomena we wish to understand.
 
-# Conceptual Background
+## This content will be filled in next week.
+
+<!-- # Conceptual Background
 
 
 ## Spatial Autocorrelation 
@@ -41,4 +43,4 @@ Spatial heterogeneity is another essential concept in the geographic sciences.  
 
 With the concepts of spatial autocorrelation and heterogeneity in mind, we can determine think about the appropriate methods for sampling spatial data.  We can also think about methods to estimate (infer) values between samples.  This video introduces the different methods we use to sample spatial data and some of their respective pros and cons.  It also introduces the concept of spatial interpolation and discusses a specific method known as Inverse Distance Weighting.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oz7h1KFl_44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oz7h1KFl_44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
