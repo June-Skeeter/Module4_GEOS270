@@ -25,10 +25,4 @@ nav_order: 1
 <a href="content/Workflows.html" target="_blank">View Slides in New Tab</a>
 
 
-* We start with a set of inputs
 
-* Do a set of sequence manipulations/overlays
-
-* Analyze the final results using maps and charts
-
-You've already done this in practice, but thus far it hasn't been very explicity or organized.  It is best practice to think through a workflow befor conducting it.  It is also best practice to creat a workflow that is repeatable, modifiable, and sharable.  "Point and Click" GIS is none of those things.  A good solution for beginners, is **Model Builder**.  Once you progress with your GIS career, you should really consider learing to code.

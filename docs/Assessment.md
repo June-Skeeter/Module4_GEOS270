@@ -69,13 +69,19 @@ The ______ tool can also be used to calculate the compass direction that a hills
 
 Stratified random sampling is a(n) [biased/unbiased] sampling method that seeks to draw a more representative sample than pure random sampling.
 
+**biased**
+
 [**8**](Content_Part3.md)
 
 Spatial [Autocorrelation/Interpolation/Overlay/Aliasing] effects the results we get when sampling spatial data. It is important to think through the impacts when we are sampling spatial data.
 
+**Autocorrelation**
+
 [**9**](Content_Part3.md)
 
 Spatial [Interpolation/Overlay/Sampling/Analysis] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
+
+**Interpolation**
 
 [**10**](Content_Part4.md)
 
