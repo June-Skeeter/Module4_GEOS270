@@ -8,7 +8,7 @@ nav_order: 4
 
 # Guest Speaker: Thursday March 10th
 
-<!-- 
+
 ## Alysha Baratta: Peace Geeks
 
 
@@ -26,4 +26,3 @@ nav_order: 4
  </iframe>
 </div>
 <a href="content/GIS Arrival Advisor.pdf" target="_blank">View slides in new tab</a>
- -->
