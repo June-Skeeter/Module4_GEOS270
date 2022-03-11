@@ -21,7 +21,7 @@ nav_order: 2
 
 Spatial sampling is the way we collect data to to bring it into a GIS in the first place.  It is essential to take representative samples, so that we can adequately represent the phenomena we wish to understand.
 
-## This content will be filled in next week.
+## This content will be introduced in Module 5 instead
 
 <!-- # Conceptual Background
 
