@@ -6,7 +6,7 @@ nav_order: 1
 
 # Spatial Analysis & GIS Workflows      
 
-This module will cover spatial analysis and inference methods methods.  We can overlay spatial layers to create new information and make conclusions about our data.
+This module will cover various techniques used to analyze spatial data.  We can overlay multiple spatial data sets or look at the features within one data set and analyze their spatial relationsips.  We can to create new information and make conclusions about our data.
 
 <img src="docs/content/images/RiskModelling.png">
 
