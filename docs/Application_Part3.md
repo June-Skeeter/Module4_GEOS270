@@ -29,7 +29,7 @@ We are going to use a tool called Model Builder to organize and save all of our 
 Our criteria for land areas at risk for flooding are:
 * Land at or below 10 m elevation **and** within 1km of the coastline.  
 
-I have crated a model to do this part for you.  In order to identify the land areas in Port Alberni at risk for inundation, the model is set up to do four tasks:
+I have created a model to do this part for you.  In order to identify the land areas in Port Alberni at risk for inundation, the model is set up to do four tasks:
 
 **1**{: .label .label-red } Reclassify the PA_DEM to identify all the areas under 10m elevation. See this link for info on the [Reclassify tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/reclassify.htm).
 
