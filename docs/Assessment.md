@@ -40,53 +40,49 @@ Written answers should be brief but they should adequately answer the question. 
 
 # Lecture Content Questions 
 
-[**1**](Content_Part1.md)
+[**1**](Content_Part1_1.md)
 
 The [Clip/Intersect/Union/Erase] tool can be used to identify the areas of two or more [vector/raster] layers that overlap *and* combine all attributes to create a new layer.
 
-[**2**](Content_Part1.md)
+[**2**](Content_Part1_1.md)
 
 The [Clip/Intersect/Union/Erase] tool can be used to combine all attributes of two or more [vector/raster] layers and create a new layer.  This tool will include non-overlapping area in the output.
 
 
-[**3**](Content_Part1.md)
+[**3**](Content_Part1_1.md)
 
 The ______ tool can be used like a cookie cutter.  It cuts away the portions of an input that do not overlap the clip layer but does not merge attributes.
 
-[**4**](Content_Part2.md)
+[**4**](Content_Part1_2.md)
 
 The [Weighted Overlay/Slope/Union/Zonal Statistics] tool can be used to conduct suitability or risk analysis.  Multiple [raster/vector] layers are overlaid to generate a suitability or risk classification map.
 
-[**5**](Content_Part2.md)
+[**5**](Content_Part1_2.md)
 
 The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be used to conduct suitability or risk analysis, but it is a more general tool that allows you to define algebraic expressions using raster layers.
 
-[**6**](Content_Part2.md)
+[**6**](Content_Part1_2.md)
 
 The ______ tool can also be used to calculate the compass direction that a hillside is facing.
 
-[**7**](Content_Part3.md)
+[**7**](Content_Part0.md)
 
-Stratified random sampling is a(n) [biased/unbiased] sampling method that seeks to draw a more representative sample than pure random sampling.
+A ______ chart is something we can use to think through our analysis steps before we conduct them.
 
-**biased**
+[**8**](Content_Part0.md)
 
-[**8**](Content_Part3.md)
+"Point and click" GIS is easily repeatable. T/F
 
-Spatial [Autocorrelation/Interpolation/Overlay/Aliasing] effects the results we get when sampling spatial data. It is important to think through the impacts when we are sampling spatial data.
+[**9**](Content_Part0.md)
 
-**Autocorrelation**
+JavaScript is a great option for creating web maps. T/F
 
-[**9**](Content_Part3.md)
+[**10**](Content_Part0.md)
 
-Spatial [Interpolation/Overlay/Sampling/Analysis] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
+Do you want two free bonus points?
 
-**Interpolation**
-
-[**10**](Content_Part4.md)
-
-Our guest speaker Alysha is the Impact Producer for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called Arrival Advisor to help newcomers to British Columbia and Manitoba find information and connect with free services.  To make sure you were paying attention.  What is the name of Alysha's dog? ______
-
+- Yes
+- No
 
 ---
 
