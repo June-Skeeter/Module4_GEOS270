@@ -2,7 +2,7 @@
 layout: default
 title: Workflows
 parent: Lecture Content
-has_children: True
+has_children: False
 nav_order: 1
 ---
 
