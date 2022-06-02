@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Raster Analysis
+title: Raster Data
 parent: Spatial Analysis
 grand_parent: Lecture Content
 has_children: True

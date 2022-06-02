@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Vector Analysis
-parent: Spatial Analysis
+title: Vector Data
+parent: Methods
 grand_parent: Lecture Content
 has_children: True
 nav_order: 1

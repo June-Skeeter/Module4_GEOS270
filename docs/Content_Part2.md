@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spatial Sampling and Inference
-parent: Lecture Content
+parent: Lecture Contentttt
 has_children: True
 nav_order: 2
 ---

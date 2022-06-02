@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Spatial Analysis
+title: Methods
 parent: Lecture Content
 has_children: True
-nav_order: 1
+nav_order: 2
 ---
 
 # Spatial Analysis Workflows
