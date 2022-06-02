@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal.js template</title>
+  <!-- credit https://bl.ocks.org/elipousson/f64814b1ee4aab5d83775bfbf556d35a -->
+
+  <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+  <meta name="author" content="jitesh@spinspire.com">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.1/reveal.min.css">
+
+<!-- 
+    <link id="theme" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/dist/theme/white.css"> -->
+    <link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.1/theme/serif.css">
+
+  <style>
+    body {
+      /* make it totally black */
+      /*background-color: black;*/
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 1
+    }
+
+.h2{position: fixed; 
+  vertical-align: text-top;}
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:10;
+  /*position: fixed; */
+}
+
+/*.center {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}*/
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:10;
+  width:50%;
+  /*position: fixed; */
+
+}
+
+
+
+.ul {
+  padding-left: 5px;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+
+       <section>
+        <h1>Raster Analysis</h1>
+        <div class="container" style="text-align:center;">
+          <p>Raster overlays, key operations and techniques.</p>
+      </section>
+
+
+      <section>
+        <h2>Raster Analysis</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Many operations can be done with vector data.</p>
+            <ul>
+              <li>Some methods are very similar.</li>
+              <ul>
+                <li>Distinctions between methods can be subtle, but important.</li>
+                <li>Can complete the same tasks, but need slight changes to a workflow.</li>
+              </ul>
+            <li>Typically in GIS there are multiple ways to get the same answers.</li>
+            <ul>
+              <li>Some "routes" are just more direct.</li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+      </section>
+<!-- 
+      <section>
+        <h2>Attribute Queries</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Finding features of interest based on attributes.</p>
+            <ul>
+              <li>A good way to reduce data volumes, export queries to new layers.</li>
+              <li>In ArcGIS Pro, you can use SQL (Structured Query Language), to <b>Select by Attribute</b>.</li>
+              <li>If we're only interested in historic residential buildings:</li>
+              <ul>
+                <li>Where "YEAR BUILT" <= 1950 <b>AND</b> "TYPE" = "Residential"</li>
+                <li>Save as a new layer, won't have to search through all the objects every time.</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Select by Attribute</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Check equality, relative magnitude, etc.</p>
+              <div class="r-stack">
+                <div class="fragment current-visible">
+                  <div class="left">
+                     <ul>
+                      <li><b>Where "SPECIES" = "Pine"</b></li>
+                      <li>Where "SPECIES" &ne; "Pine"</li>
+                      <li>Where "HEIGHT" <= 5</li>
+                    </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+                <div class="fragment current-visible">
+                  <div class="left">
+                     <ul>
+                      <li>Where "SPECIES" = "Pine"</li>
+                      <li><b>Where "SPECIES" &ne; "Pine"</b></li>
+                      <li>Where "HEIGHT" <= 5</li>
+                    </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+                <div class="fragment current-visible">
+                  <div class="left">
+                     <ul>
+                      <li>Where "SPECIES" = "Pine"</li>
+                      <li>Where "SPECIES" &ne; "Pine"</li>
+                      <li><b>Where "HEIGHT" <= 5</b></li>
+                    </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Select by Attribute</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Combined with operators: <b>AND</b> / <b>OR</b></p>
+              <div class="r-stack">
+                <div class="fragment current-visible">
+                  <div class="left">
+                  <ul>
+                    <li><b>Where "SPECIES" = "Pine" AND "HEIGHT" <= 5</b></li>
+                    <li>Where "SPECIES" = "Pine" OR "HEIGHT" <= 5</li>
+                  </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+                <div class="fragment current-visible">
+                  <div class="left">
+                  <ul>
+                    <li>Where "SPECIES" = "Pine" AND "HEIGHT" <= 5</li>
+                    <li><b>Where "SPECIES" = "Pine" OR "HEIGHT" <= 5</b></li>
+                  </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Select by Attribute</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Requires careful consideration:</p>
+              <div class="r-stack">
+                <div class="fragment current-visible">
+                  <div class="left">
+                  <ul>
+                    <li><b>Where "SPECIES" = "Pine" AND "SPECIES" = "Oak"</b></li>
+                    <li>Where "SPECIES" = "Pine" OR "SPECIES" = "Oak"</li>
+                  </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#8c8c8c"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#8c8c8c"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+                <div class="fragment current-visible">
+                  <div class="left">
+                  <ul>
+                    <li>Where "SPECIES" = "Pine" AND "SPECIES" = "Oak"</li>
+                    <li><b>Where "SPECIES" = "Pine" OR "SPECIES" = "Oak"</b></li>
+                  </ul>
+                  </div>
+                  <div class="right">
+                    <table>
+                      <tr><td>Species</td><td>Age</td><td>Height</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>10</td><td>5</td></tr>
+                      <tr style="color:#00FFFF"><td>Pine</td><td>95</td><td>28</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>200</td><td>25</td></tr>
+                      <tr style="color:#00FFFF"><td>Oak</td><td>5</td><td>4</td></tr>
+                  </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Proximity Analysis</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            
+          <p>Looking at spatial relationships within or between layers.
+          <ul>
+            <li>A good way to reduce data volumes, export queries to new layers.</li>
+            <li>Multiple options, depending on our needs.</li>
+            <li>If we're only interested in buildings within 1 km of streams:</li>
+            <ul>
+                <li>Identify by proximity</li>
+                <li>Save as a new layer, won't have to search through all the objects every time.</li>
+            </ul>
+          </ul>
+          </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Select by Location</h2>
+        <div class="container">
+          <div class="left" style="text-align: left;">
+            
+          <p>Use <a href="https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/using-select-by-location.htm">Select by Location</a> when you want to check for spatial relationships.  There are many relationships we can check for:
+          <ul>
+            <li>Containment</li>
+            <li>Intersection</li>
+            <li>Distance</li>
+          </ul>
+          </p>
+          </div>
+          <div class="right">
+
+            <img src="images/by_location.png" width="350">            
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Geometric Manipulations</h2>
+        <div class="container">
+          <p>These methods create new layers with altered "geometries".  Geometry is a term we use to refer to points, lines, and/or polygons in a vector layer.  </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Buffering</h2>
+        <div class="container">
+          <div class="left">
+            
+          <p>Use the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/buffer.htm">Buffer</a> tool to create a new Polygon layer based on distance.</p>
+          <ul>
+            <li>Buffer points, lines, or polygons using a buffer distance or set a field to specify varriable distance.</li>
+            <li>Use the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/multiple-ring-buffer.htm">Multiple Ring Buffer</a> tool for multi-criteria buffers.</li>
+          </ul>
+          </div>
+          <div class="col" style="text-align: right;">
+            
+            <img src="images/buffer.png" width="400"> 
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Dissolve</h2>
+        <div class="container">
+          <div class="left">
+            
+          <p><a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm">Dissolve</a> aggregates features.</p>
+          <ul>
+            <li>Merges objects completly or by attribute(s).</li>
+            <li>Can calculate statistics for aggregated regions.</li>
+            <li>Useful if our data is more "complex" than we need it to be.</li>
+          </ul>
+          </div>
+          <div class="right">
+            <img src="images/dissolve.png" width="400">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Feature Overlay</h2>
+        <div class="container">
+          <p>When we have multiple data layers and we want to combine them to form a new output.</p>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Clip</h2>
+        <div class="container">
+          <div class="left">
+            
+          <p>Use the <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm">Clip</a> tool to cut one layer down to the boundaries of another.</p>
+          <ul>
+            <li>Works like a cookie cutter.</li>
+            <li>Useful when we want to focus on a study area.</li>
+            <ul>
+              <li>Input layer: our data layer</li>
+              <li>Clip layer: the study area</li>
+            </ul>
+          </ul>
+          </div>
+          <div class="right">
+            <img src="images/clip_inpt.png" width="300">
+            <img src="images/clip_output.png" width="300">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Erase</h2>
+        <div class="container">
+         <div class="left">
+            <p>Use the <a href="https://desktop.arcgis.com/en/arcmap/latest/tools/analysis-toolbox/erase.htm">erase</a> tool to remove the area of one layer from another.</p>
+          <ul>
+            <li>Opposite of the clip tool.</li>
+            <li>Useful when we want to discard/exclude an area.</li>
+          </ul>
+         </div>
+         <div class="right">
+           
+            <img src="images/clip_inpt.png" width="300">
+            <img src="images/erase.png" width="300">
+         </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Intersect</h2>
+        <div class="container">
+          <div class="left">
+            
+          <p><a href="https://desktop.arcgis.com/en/arcmap/latest/tools/analysis-toolbox/intersect.htm">Intersect</a> lets us see <b>only</b> where layers overlap and combine overlapping attributes.</p>
+          <ul>
+            <li>Can handle more than two layers at once.</li>
+            <li>Splits features by overlaps and merges attribute tables.</li>
+            <li>Useful when we want to merge and parse data at the same time.</li>
+          </ul>
+          </div>
+          <div class="right">
+            
+            <img src="images/clip_inpt.png" width="300">
+            <img src="images/intersect.png" width="300">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Union</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>Use the <a href="https://desktop.arcgis.com/en/arcmap/latest/tools/analysis-toolbox/union.htm">Union</a> tool to combine multiple layers, split features where they overlap and combine attributes.</p>
+          <ul>
+            <li>Similar to intersect, but keeps overlapping areas</li>
+             <li>Adds attributes from all overlaps.</li>
+            <li>Can handle more than two layers at once.</li>
+            <ul>
+              <li>Null values where for new attributes where no overlaps are present.</li>
+            </ul>
+            <li>Useful when we want to merge layers.</li>
+          </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <h2>Many More</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+            <p>There are many more vector overlay tools!  I have presented some of the the most frequenly used tools, but if you have specific use cases you may need others.  I can't cover them all, and I don't want to overwhelm folks.</p>
+          </div>
+        </div>
+      </section>
+ -->
+
+    </div><!-- .slides -->
+
+  </div><!-- .reveal -->
+
+  <!-- not needed since 3.8.0 -->
+  <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"><script -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.1/reveal.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.2.1/plugin/math/math.min.js"></script>
+
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      overview: false,
+      loop: false,
+      margin: 0.04,
+      width: 1200,
+
+
+      transition: 'none',
+
+    plugins: [ RevealMath.MathJax2 ]
+    },
+
+
+    );
+  </script>
+</body>
+
+</html>
