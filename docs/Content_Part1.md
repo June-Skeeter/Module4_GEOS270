@@ -8,4 +8,4 @@ nav_order: 2
 
 # Spatial Analysis Methods
 
-This will be available Tuesday!
+This will be covered on Tuesday!
