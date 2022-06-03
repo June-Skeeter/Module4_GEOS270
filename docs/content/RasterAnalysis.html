@@ -112,19 +112,19 @@
           </div>
         </div>
       </section>
-<!-- 
+
       <section>
-        <h2>Attribute Queries</h2>
+        <h2>Parsing and Aggregating</h2>
         <div class="container">
           <div class="col" style="text-align: left;">
-            <p>Finding features of interest based on attributes.</p>
+            <p>Often our data is more "complex" than we need it to be.  It is useful to parse, reclassify, and/or aggregate our data.</p>
             <ul>
-              <li>A good way to reduce data volumes, export queries to new layers.</li>
-              <li>In ArcGIS Pro, you can use SQL (Structured Query Language), to <b>Select by Attribute</b>.</li>
-              <li>If we're only interested in historic residential buildings:</li>
+              <li><a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/clip.htm">Clip Raster</a>: cuts raster down to a bounding box.</li>
+              <ul><li>Max N/S & E/W extent of another layer (vector or raster) or manually defined.</li></ul>
+              <li><a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/reclassify.htm">Reclassify</a>: reassign cell values.</li>
+              <li><a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/mosaic.htm">Mosaic</a>: Combine multiple raster data sets into one.</li>
               <ul>
-                <li>Where "YEAR BUILT" <= 1950 <b>AND</b> "TYPE" = "Residential"</li>
-                <li>Save as a new layer, won't have to search through all the objects every time.</li>
+                <li>There are <a href="https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/mosaic-operators.htm">multiple approaches</a> we can use.</li>
               </ul>
             </ul>
           </div>
@@ -132,6 +132,45 @@
       </section>
 
 
+
+      <section>
+        <h2>Overlay</h2>
+        <div class="container">
+          <div class="left">
+            <p>Often, we have multiple data layers and we want to combine them to form a new output.  With raster data, we have a few tools we can use for this.</p>
+          </div>
+          <div class="right">
+            <img src="images/03-raster-overlay.png">
+          </div>
+        </div>
+      </section>
+
+
+      <section>
+        <div class="container">
+          <div class="left">
+            <h3><a href="https://desktop.arcgis.com/en/arcmap/latest/tools/spatial-analyst-toolbox/weighted-overlay.htm">Weighted Overlay</a></h3>
+            <p>Combine multiple layers for suitability or risk analysis.  Suitable alternative for the Port Alberni Tsunami Modelling</p>
+          </div>
+          <div class="right">
+            <img src="images/03-raster-overlay.png">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="left">
+            <h3><a href="https://desktop.arcgis.com/en/arcmap/latest/tools/spatial-analyst-toolbox/raster-calculator.htm">Raster Calculator</a></h3>
+            <p>More general than weighted overlay, can be used to do weighted overlay if combined with reclassification.  Suitable alternative for the Port Alberni Tsunami Modelling.</p>
+          </div>
+          <div class="right">
+            <img src="images/03-raster-overlay.png">
+          </div>
+        </div>
+      </section>
+
+<!-- 
       <section>
         <h2>Select by Attribute</h2>
         <div class="container">
