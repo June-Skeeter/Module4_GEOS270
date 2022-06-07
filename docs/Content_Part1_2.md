@@ -9,13 +9,28 @@ nav_order: 2
 
 # Raster Methods
 
-There are also many different types of manipulations we can do with raster data.  Because raster data is "simpler" we often don't need as many tools needed to accomplish all these tasks.  Rather, we often rely on stringing together multiple computations.  Many of the complex raster analyses we can do are beyond the scope of this course, but we'll cover the basics here.
-
+<!-- There are also many different types of manipulations we can do with raster data.  Because raster data is "simpler" we often don't need as many tools needed to accomplish all these tasks.  Rather, we often rely on stringing together multiple computations.  Many of the complex raster analyses we can do are beyond the scope of this course, but we'll cover the basics here.
+ -->
 
 [Raster Examples Project](https://github.com/June-Skeeter/Module4_GEOS270/blob/main/data/RasterMethods.zip){: .btn .btn-blue }
 
 
-## Parsing and Aggregating
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/RasterAnalysis.html" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="content/RasterAnalysis.html" target="_blank">View Slides in New Tab</a>
+
+<!-- ## Parsing and Aggregating
 
 Many times, our data is more "complex" than we need it to be.  It is often useful to parse or aggregate our data.  Other times, we have two or more datasets that we need to combine.
 
@@ -49,7 +64,7 @@ Often, we have multiple data layers and we want to combine them to form a new ou
 
 ## Proximity Analysis
 
-Sometimes, we we're interested in looking at spatial relationships using raster data.
+Sometimes, we're interested in looking at spatial relationships using raster data.
 
 - [Euclidean Distance](https://desktop.arcgis.com/en/arcmap/latest/tools/spatial-analyst-toolbox/euclidean-distance.htm)
 	- We can use this tool to calculate distance from the nearest feature or raster layer.  
@@ -69,4 +84,4 @@ These tools are specifically designed to analyze terrain surfaces (ie. Digital E
 
 ArcGIS Pro has an exentsive toolkit of tools for more complex analyses you can do with raster data as well.
 
-<img src="docs/content/images/Raster_Functions.png">
+<img src="content/images/Raster_Functions.png"> -->

@@ -8,4 +8,8 @@ nav_order: 2
 
 # Spatial Analysis Methods
 
-This will be covered on Tuesday!
+This portion of the module will cover assorted techniques/tools we use to analyze spatial data layers.
+
+* We need different tools for vector data and raster data.
+	* Vector data structures are more complex, so there are a number of different ways to see how features relate to each other.
+	* Raster data is less complex, but there are many different types of analysis we can conduct with it!
